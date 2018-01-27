@@ -1,4 +1,4 @@
-public class SelectionSort extends Sort {
+public class Selection extends Sort {
 
     /**
      *
@@ -15,13 +15,5 @@ public class SelectionSort extends Sort {
 
             exch(a, i, min);
         }
-    }
-
-    public static void main(String[] args) {
-        Integer[] a = {11, 4, 8, 2, 3, 1, 9, 5};
-        show(a);
-        sort(a);
-        assert isSorted(a);
-        show(a);
     }
 }

@@ -1,4 +1,4 @@
-public class InsertionSort extends Sort {
+public class Insertion extends Sort {
 
     /**
      * The running time depends on the initial order of the input. Effective if already mostly sorted.

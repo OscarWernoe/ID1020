@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Fundamentals" />
+        <module name="Searching" />
         <module name="Sorting" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Fundamentals" target="1.8" />
       <module name="id1020" target="1.8" />
+      <module name="Searching" target="1.8" />
       <module name="Sorting" target="1.8" />
     </bytecodeTargetLevel>
   </component>
